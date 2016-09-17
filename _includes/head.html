@@ -9,6 +9,8 @@
   {% assign full_base_url = custom_url | default: site.github.url %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: full_base_url }}">
   
+  {% include style.html %}
+
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
