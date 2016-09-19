@@ -22,6 +22,8 @@ url: "https://chantastic.org" # the base hostname & protocol for your site
 twitter_username: chantastic
 github_username:  chantastic
 
+permalink: /:title
+
 # Build settings
 markdown: kramdown
 theme: minima
