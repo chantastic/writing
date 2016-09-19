@@ -4,14 +4,10 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header>
-    <h1 class="mt-4r mb-3r fs-1e" itemprop="name headline">
+    <h1 class="mt-4r mb-3r fs-1e ff-sans-serif fw-800" itemprop="name headline">
       {{ page.title | escape }}
     </h1>
     <p>
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: "%b %-d, %Y" }}
-      </time>
-
       {% if page.author %}
         •
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
