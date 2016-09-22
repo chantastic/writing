@@ -5,7 +5,7 @@ layout: default
 <ul class="lst-n pl-0">
   {% for post in site.posts %}
     <li>
-      <h2 class="fs-1e">
+      <h2 class="mt-4r mb-3r fs-1e ff-sans-serif fw-800" itemprop="name headline">
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
       </h2>
         {{ post.content | split:'<!-- fold -->' | first }}
