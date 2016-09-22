@@ -60,7 +60,7 @@ Note that the `aria-labelledby` attribute uses `id`s to identify content, not th
 
 ### `role`
 
-`roles` help to assisted devices identify the SVG as an image. Use `role="img"` on the root SVG element and `role="presentation"` on the `path`.
+`roles` help assisted devices identify the SVG as an image. Use `role="img"` on the root SVG element and `role="presentation"` on the `path`.
 
 {% highlight html %}
 <svg role="img" aria-labelledby="title desc">
